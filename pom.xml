@@ -15,7 +15,7 @@
   </properties>
     <profiles>
   <profile>
-  <id> checkid</id>
+  <id> Demo1</id>
   <build>
   <pluginManagement>
   <plugins>
@@ -72,7 +72,7 @@
   </build>
   </profile>
   <profile>
-  <id> smoke</id>
+  <id> practice</id>
   <build>
   <pluginManagement>
   <plugins>
@@ -82,7 +82,7 @@
         <version>3.0.0-M5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>smoke_testng.xml</suiteXmlFile>
+            <suiteXmlFile>practice_testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
          </plugin>
